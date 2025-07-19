@@ -34,7 +34,7 @@
         compatible = "zmk,combos";
 
         trigger_sim {
-            bindings = <&to 3>;
+            bindings = <&mo 3>;
             key-positions = <33 32 34>;
         };
     };
