@@ -126,7 +126,7 @@
          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6    &kp F7    &kp F8  &kp F9     &kp F10
          &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
 &kp F11  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans   &kp F12
-                         &trans  &trans  &trans    &trans    &trans    &trans
+                         &trans  &trans  &mo 4     &trans    &trans    &trans
             >;
         };
 
@@ -141,6 +141,15 @@
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &kp C_MUTE    &trans        &trans      &trans      &trans
 &trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV  &kp C_NEXT  &trans  &trans
                                  &trans        &trans  &trans    &trans        &kp C_PP      &trans
+            >;
+        };
+
+        extra_layer {
+            bindings = <
+           &kp EXCL  &kp AT  &kp POUND  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+           &trans    &trans  &trans     &trans      &kp PLUS       &kp EQUAL  &trans         &trans     &trans                &trans
+&kp TILDE  &trans    &trans  &trans     &trans      &trans         &trans     &trans         &trans     &trans                &trans                 &kp UNDERSCORE
+                             &trans     &trans      &trans         &trans     &trans         &trans
             >;
         };
     };
