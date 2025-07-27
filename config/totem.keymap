@@ -30,7 +30,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        screenshot_crosshair {
+            bindings = <&kp LS(LG(NUMBER_4))>;
+            key-positions = <33 10 3>;
+        };
+
+        screenshot {
+            bindings = <&kp LS(LG(NUMBER_3))>;
+            key-positions = <33 10 2>;
+        };
+    };
 
     macros {
         gif: gif {
